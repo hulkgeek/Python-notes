@@ -1,0 +1,334 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"text",
+				"text-decoration-style"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"font-ca",
+				"font-variant-caps"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ul",
+				"column-rule"
+			],
+			[
+				"ba",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"LSP",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"Pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"LSP:",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"age",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package control:",
+				"Package Control: Install Package"
+			],
+			[
+				"pcka",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+			"ls",
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect((\"localhost\", 54601))"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Nima/Library/Application Support/Sublime Text 3/Packages/Conda/Conda.sublime-settings",
+		"/Users/Nima/SpringBoard/Python_SLT/test.py",
+		"/Users/Nima/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/Nima/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/Nima/Library/Application Support/Sublime Text 3/Packages/User/sublime_jedi.sublime-settings",
+		"/Users/Nima/Library/Application Support/Sublime Text 3/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
+		"/Users/Nima/SpringBoard/Python Training/pandasDC.py",
+		"/Users/Nima/Library/Application Support/Sublime Text 3/Packages/Anaconda/README.md",
+		"/Users/Nima/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/Nima/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/Nima/SpringBoard/Python Training/pandas.py",
+		"/Users/Nima/Library/Application Support/Sublime Text 3/Packages/Jedi - Python autocompletion/Default.sublime-keymap",
+		"/Users/Nima/Google Drive/C Programming/hello.c",
+		"/private/var/folders/h3/rr9l5z8x5b3b68j02srhgxbw0000gn/T/com.microsoft.Excel/Repair Result to American Chemical_data1.xml",
+		"/private/var/folders/h3/rr9l5z8x5b3b68j02srhgxbw0000gn/T/com.microsoft.Excel/Repair Result to American Chemical_data0.xml",
+		"/Users/Nima/WebDevBootcamp/blogStyle.css",
+		"/Users/Nima/WebDevBootcamp/blog.html",
+		"/Users/Nima/WebDevBootcamp/photos.css",
+		"/Users/Nima/WebDevBootcamp/photoGrid.html",
+		"/Users/Nima/WebDevBootcamp/ticTacToe.html",
+		"/Users/Nima/WebDevBootcamp/ticstyle.css",
+		"/Users/Nima/WebDevBootcamp/boxmodel.html",
+		"/Users/Nima/WebDevBootcamp/style.css",
+		"/Users/Nima/WebDevBootcamp/styles.css",
+		"/Users/Nima/WebDevBootcamp/fonts.html",
+		"/Users/Nima/WebDevBootcamp/09_Selector_Exercise_Starter/selectors.css",
+		"/Users/Nima/WebDevBootcamp/09_Selector_Exercise_Starter/selectorsExercise.html",
+		"/Users/Nima/WebDevBootcamp/specificity.html",
+		"/Users/Nima/WebDevBootcamp/todoList.html",
+		"/Users/Nima/WebDevBootcamp/todos.css",
+		"/Users/Nima/WebDevBootcamp/aboutMe.html",
+		"/Users/Nima/WebDevBootcamp/aboutMe.css"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 120.0
+	},
+	"output.anaconda_documentation":
+	{
+		"height": 108.0
+	},
+	"output.exec":
+	{
+		"height": 120.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Conda/Conda.sublime-build",
+	"project": "pandas.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 181.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
