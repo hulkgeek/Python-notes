@@ -2,5 +2,5 @@
     "python.pythonPath": "/Users/Nima/anaconda3/bin/python",
     "python.jediEnabled": false,
     "python.linting.enabled": true,
-    "python.linting.pep8Enabled": true
+    "python.linting.pycodestyleEnabled": true
 }

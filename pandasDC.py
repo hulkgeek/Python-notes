@@ -1,4 +1,5 @@
 import pandas as pd
+from scipy.stats import zscore
 
 visitors = [326, 139, 456, 237]
 signups = [3, 7, 5, 12]
@@ -111,3 +112,30 @@ aggregator = {'population': 'sum', 'child_mortality': 'mean', 'gdp': spread}
 aggregated = by_year_region.agg(aggregator)
 
 print(aggregated.tail(6))
+
+# Grouping on a function of the index
+sales = pd.read_csv('sales-feb-2015.csv', index_col='Date', parse_dates=True)
+by_day = sales.groupby(sales.index.strftime('%a'))
+units_sum = by_day['Units'].sum()
+print('\nGroup the sales data by the day of the week and',
+      'aggregate the sum of the units:\n')
+print(units_sum)
+
+# Transform and Groupby: Detecting outliers with Z-Scores
+gapminder_2010 = pd.read_csv('gapminder_tidy.csv', index_col='Country')
+
+gapminder_2010 = gapminder_2010 \
+                 .loc[gapminder_2010.Year == 2010, :] \
+                 .drop(columns='Year')
+
+standardized = gapminder_2010 \
+               .groupby('region')['life', 'fertility'] \
+               .transform(zscore)
+
+outliers = (standardized['life'] < -3) | (standardized['fertility'] > 3)
+
+gm_outliers = gapminder_2010.loc[outliers, :]
+
+print('\ncountries that have high fertility rates and',
+      'low life expectancy for their region.\n')
+print(gm_outliers)
